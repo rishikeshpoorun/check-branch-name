@@ -1,6 +1,6 @@
 name: 'Branch name rules'
 description: 'Github action to enforce naming convention on branch names'
-author: 'deepakputhraya'
+author: 'rishikesh.poorun'
 inputs:
   regex:
     description: 'Regex to validate the branch name'

@@ -1,12 +1,12 @@
 const core = require('@actions/core');
 const github = require('@actions/github');
 
-const validEvent = ['push', 'pull_request'];
+const validEvent = ['create','push', 'pull_request'];
 
 function getBranchName(eventName, payload) {
     let branchName;
     switch (eventName) {
-        case 'push':
+        case 'push','create':
             branchName = payload.ref.replace('refs/heads/', '');
             break;
         case 'pull_request':
