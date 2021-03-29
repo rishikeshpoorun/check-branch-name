@@ -9,7 +9,7 @@ See [action.yml](./action.yml)
 
 ```yaml
 steps:
-- uses: rishikesh.poorun/check-branch-name@master
+- uses: rishikeshpoorun/check-branch-name@master
   with:
     regex: '([a-z])+\/([a-z])+' # Regex the branch should match. This example enforces grouping
     allowed_prefixes: 'feature,stable,fix' # All branches should start with the given prefix
