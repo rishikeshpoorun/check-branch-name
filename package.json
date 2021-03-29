@@ -1,5 +1,5 @@
 {
-  "name": "action-branch-name",
+  "name": "check-branch-name",
   "version": "1.0.0",
   "description": "Github action to enforce naming convention on branch names",
   "main": "index.js",
@@ -11,8 +11,7 @@
     "github",
     "actions"
   ],
-  "author": "deepakputhraya",
-  "license": "MIT",
+  "author": "rishikesh.poorun",
   "dependencies": {
     "@actions/core": "^1.1.3",
     "@actions/github": "^1.1.0"

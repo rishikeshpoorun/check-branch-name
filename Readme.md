@@ -9,7 +9,7 @@ See [action.yml](./action.yml)
 
 ```yaml
 steps:
-- uses: deepakputhraya/action-branch-name@master
+- uses: rishikesh.poorun/check-branch-name@master
   with:
     regex: '([a-z])+\/([a-z])+' # Regex the branch should match. This example enforces grouping
     allowed_prefixes: 'feature,stable,fix' # All branches should start with the given prefix
@@ -17,6 +17,3 @@ steps:
     min_length: 5 # Min length of the branch name
     max_length: 20 # Max length of the branch name
 ```
-
-## License
-The scripts and documentation in this project are released under the [MIT License](./LICENSE)
